@@ -20,6 +20,11 @@ android {
 
 }
 
+repositories {
+        google()
+        jcenter()
+}
+
 dependencies {
     api fileTree(include: ['*.jar'], dir: 'libs')
     implementation project(path: ':Turbo')
